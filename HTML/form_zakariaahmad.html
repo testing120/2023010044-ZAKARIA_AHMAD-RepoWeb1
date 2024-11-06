@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Mahasiswa Baru</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Formulir Pendaftaran Mahasiswa Baru</h1>
+
+    <form>
+
+        <label>Nama Lengkap:</label><br>
+        <input type="text"><br><br>
+
+        <label>Tanggal Lahir:</label><br>
+        <input type="date"><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" name="jenis_kelamin">
+        <label for="laki">Laki-laki</label>
+        <input type="radio"  name="jenis_kelamin">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <label>Alamat:</label><br>
+        <textarea  rows="4"></textarea><br><br>
+
+        <label for="prodi">Program Studi Pilihan:</label><br>
+        <select >
+            <option>Teknik Elektro</option>
+            <option>Teknik Mesin</option>
+            <option>Teknik Sipil</option>
+            <option>Teknologi Informasi</option>
+        </select><br><br>
+
+        <label>Nomor Telepon:</label><br>
+        <input type="number"><br><br>
+
+        <label >Email:</label><br>
+        <input type="email"><br><br>
+
+        <label >Unggah Berkas (Foto/Scan KTP):</label><br>
+        <input type="file"><br><br>
+        
+        <button type="submit">Daftar</button>
+    </form>
+
+</body>
+</html>

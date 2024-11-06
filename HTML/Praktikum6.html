@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPL Politeknik Balekambang</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      .header {
+        background-color: #87ceeb;
+        padding: 20px;
+      }
+
+      .logo-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .logo {
+        width: 100px;
+      }
+
+      .nav {
+        background-color: #333;
+        padding: 15px;
+      }
+
+      .nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        margin-right: 10px;
+      }
+
+      .nav a:hover {
+        background-color: #555;
+      }
+
+      .main {
+        display: flex;
+        min-height: 500px;
+      }
+
+      .content {
+        flex: 3;
+        padding: 20px;
+        background-color: #fff8dc;
+      }
+
+      .sidebar {
+        flex: 1;
+        padding: 20px;
+        background-color: #ff8c00;
+      }
+
+      .sidebar ul {
+        list-style: none;
+      }
+
+      .sidebar li {
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+        cursor: pointer;
+      }
+
+      .footer {
+        background-color: #ccc;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .small-logo {
+        width: 50px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="beranda">
+      <div class="header">
+        <div class="logo-container">
+          <img src="logo-polibang.png" alt="Logo Polibang" class="logo" />
+          <div>
+            <h1>Rekayasa Perangkat Lunak</h1>
+            <h2>Politeknik Balekambang</h2>
+          </div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#beranda">Beranda</a>
+        <a href="#visimisi">Visi Misi</a>
+        <a href="https://polibang.ac.id">Situs Polibang</a>
+        <a href="form.html">Formulir</a>
+      </nav>
+
+      <div class="main">
+        <div class="content">
+          <section id="visimisi">
+            <h2>Visi & Misi RPL</h2>
+            <h3>Visi</h3>
+            <p>
+              Menjadi Program Studi unggulan dalam pengembangan perangkat lunak
+              yang inovatif dan berdaya saing global.
+            </p>
+
+            <h3>Misi</h3>
+            <ul>
+              <li>
+                Menyelenggarakan pendidikan berkualitas di bidang rekayasa
+                perangkat lunak
+              </li>
+              <li>Melakukan penelitian dan pengembangan teknologi software</li>
+              <li>Menjalin kerjasama dengan industri dan masyarakat</li>
+            </ul>
+          </section>
+          <h3>Nama Dosen</h3>
+          <ul>
+            <li>A.Faiq Abror, M.Pd.</li>
+            <li>Indra Kurniawan, M.Kom</li>
+            <li>Siti Aminah, M.T</li>
+          </ul>
+        </div>
+
+        <div class="sidebar">
+          <h3>Teman Sekelas</h3>
+          <ul>
+            <li>Ahmad Rizki</li>
+            <li>Budi Santoso</li>
+            <li>Cindy Putri</li>
+            <li>Deni Kurniawan</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <img src="logo-small.png" alt="Logo Kecil Polibang" class="small-logo" />
+      <p>Politeknik Balekambang</p>
+      <p>Jl. Balekambang No. 123, Jepara, Jawa Tengah</p>
+      <p>Dibuat oleh: Zakaria Ahmad</p>
+    </footer>
+  </body>
+</html>
