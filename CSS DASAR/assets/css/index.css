@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  gap: 20px;
+  height: 700px;
+}
+
+.header {
+  border-top-left-radius: 80px;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 0 15px grey;
+}
+.image {
+  text-align: center;
+}
+.konten {
+  margin-top: 0;
+  border-bottom-right-radius: 80px;
+  width: 700px;
+  height: 200px;
+  box-shadow: 0 0 15px grey;
+}
+.navbar {
+  position: absolute;
+  left: 390px;
+  top: 230px;
+  background-color: #0044cc;
+  padding: 10px 85px;
+  box-shadow: 0 0 15px grey;
+}
+
+.navbar a {
+  color: #ffffff; /* Warna teks */
+  text-decoration: none; /* Menghapus garis bawah */
+  margin: 0 15px; /* Spasi antar link */
+  font-size: 16px; /* Ukuran font */
+  font-family: Arial, sans-serif; /* Jenis font */
+}
+.isi {
+  position: absolute;
+  left: 395px;
+  top: 300px;
+  width: 650px; /* Lebar tetap */
+  height: 300px; /* Tinggi tetap */
+  padding: 20px; /* Spasi dalam */
+  box-shadow: 0 0 15px grey; /* Bayangan */
+  overflow-y: auto; /* Gulir vertikal jika konten melebihi tinggi */
+  background-color: #ffffff; /* Latar belakang putih */
+}
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(100px, 1fr)
+  ); /* Grid responsif */
+  gap: 10px; /* Jarak antar foto */
+  justify-content: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+.gallery-container img {
+  width: 100px; /* Lebar tetap */
+  height: 100px; /* Tinggi tetap */
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+  border-radius: 5px; /* Sudut membulat */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Bayangan pada gambar */
+}
+
+footer {
+  background-color: blue;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  width: 850px;
+  height: 80px;
+  text-align: center;
+  position: absolute;
+
+  left: 250px;
+  color: white;
+}
